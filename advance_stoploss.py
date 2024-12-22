@@ -4,7 +4,8 @@ import requests
 import csv
 from io import StringIO
 # Load credentials
-exec(open('/content/drive/MyDrive/ALGO/FYERS/fyers_access_token.txt').read())
+client_id = "XC4XXXXM-100"
+access_token = "eyJ0eXXXXXXXX2c5-Y3RgS8wR14g"
 
 # Input from the user
 inp = input("Enter the symbol: NSE:BANKNIFTY24DEC49300CE")
