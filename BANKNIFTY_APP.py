@@ -86,8 +86,9 @@ import pandas as pd
 import numpy as np
 from datetime import datetime, timedelta
 from fyers_apiv3 import fyersModel
-file_name = '/content/drive/MyDrive/ALGO/FYERS/fyers_access_token.txt'
-exec(open(file_name).read())
+
+client_id = "XC4XXXXM-100"
+access_token = "eyJ0eXXXXXXXX2c5-Y3RgS8wR14g"
 
  
 
